@@ -1,0 +1,67 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">CALCULADORA DE VOLUME</h1>
+    </header>
+
+    <div class="container">
+        <div class="caixas">
+            <div onclick="cubo()" class="caixa">
+                <div class="solido">
+                    <img src="paralelepipedo.png" alt="paralelepipedo">
+                </div>
+                <div class="conteudo">
+                    <h1 class="titulo">CUBO</h1>
+                    <h2 id="cubo" class="volume"></h2>
+                </div>
+            </div>
+            <div  onclick="piramide()" class="caixa">
+                <div class="solido">
+                    <img src="piramide.png" alt="pirâmide">
+                </div>
+                <div class="conteudo">
+                    <h1 class="titulo">PIRÂMIDE</h1>
+                    <h2 id="pirâmide" class="volume"></h2>
+                </div>
+            </div>
+            <div onclick="cone()" class="caixa">
+                <div class="solido">
+                    <img src="cone.png" alt="cone">
+                </div>
+                <div class="conteudo">
+                    <h1 class="titulo">CONE</h1>
+                    <h2 id="cone" class="volume"></h2>
+                </div>
+            </div>
+            <div class="caixa">
+                <div class="solido">
+                    <img src="cilindro.png" alt="cilindro">
+                </div>
+                <div onclick="cilindro()" class="conteudo">
+                    <h1 class="titulo">CILINDRO</h1>
+                    <h2 id="cilindro" class="volume"></h2>
+                </div>
+            </div>
+            <div class="caixa">
+                <div class="solido">
+                    <img src="esfera.png" alt="esfera">
+                </div>
+                <div onclick="esfera()" class="conteudo">
+                    <h1 class="titulo">ESFERA</h1>
+                    <h2 id="esfera" class="volume"></h2>
+                </div>
+            </div>           
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
